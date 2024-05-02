@@ -1,0 +1,204 @@
+
+
+                                         !NETWORK!
+            Network in simple exmaple devices which one is sending data and second is reciving it.
+                    This proccess simplify our life creating bridges to faster communication.
+                    Communication that we use in every possible way for searching information via web,
+         dowloanding specific programs, creating net of working together PC's or devicesto integrate system fuctions.
+
+
+                                       [DEFINITIONS]
+                Host - host is end-devices providing connect or in case sending data to
+                particular device
+                Host is every device connected to network having own IP adress
+                Server- This Device got a installed software to share service to other
+                computers
+                client
+                Computer using services through servers
+                Client - Server - computer network architecture in which there is a
+                computer providing services
+                and computers using these services
+                Peer to Peer (P2P) - computer network architecture which is using two or
+                more device to provide
+                connection. All devices have same permissions and can create for example
+                simple communication without
+                interactions with outsides sources.
+                Transmission medium - an element of a computer network through which they
+                communicate with each other
+                device, it may be a copper cable, fiber optic cable, or radio waves
+                (WiFi).
+                Communication protocol - a specific method (language) of communication
+                through which exchange is possible
+                data between devices on the network.
+                LAN (Local Area Netwok) - LAN is how name is describing to us a local
+                computer net that connect devices
+                via house or it even could be few servers working in same buidling
+                connected to one switch in one buidling
+                MAN (Metropolitan Area Netwok) - It's urban network working with the help
+                of own encompassing signal range to connect city
+                WAN (Wide Area Netwok) - Long distance network that is working for LAN
+                networks to communicate eachother
+                Physical topology of the network - determines how computers in the
+                network are connected to each other.
+                Logical network topology - determines how computers on the network
+                communicate with each other.
+                NIC (Network Interface Card) - Adapter installed in devices for example
+                in phones or computers which help
+                devices connect to net
+                Ruter (ang. Router) - net device with general task to connect nets for
+                communication and determinate path of data flow based
+                on IP Adress
+                Switch- net device that connect devices via LAN net and transfer data
+                devices via MAC Adress
+                Adres IP - Logic interface adress of devices in computer network
+                Adres MAC - Adress that have every devices got since production from
+                producer
+                Internet - a mesh of interconnected wide area networks.
+                Intranet private net using standarts of Internet for example WWW, FTP
+                or POP3 or SMTP, which only permmisioned
+                users had access to it
+                Extranet - extensions for private net enabling access to its resources
+                also for others
+                users
+                VPN - Private net, that use own transmition channel to comunnicate with
+                device for secure resons
+
+
+            
+                                        [STANDARTS OF COMPUTER NETWORK]
+            IEEE 802 it is a group of standards used in computer networks. The most popular standards is :
+            
+            
+            IEEE 802.1D – standard opisujący pracę protokołu drzewa rozpinającego STP (ang. Spanning Tree
+            Protocol), który implementowany jest w przełącznikach sieciowych (ang. Switch). Jego podstawową funkcją
+            jest zapobieganie powstawaniu pętli w lokalnych sieciach komputerowych.
+            IEEE 802.p – standard opisujący działanie usługi QoS na przełącznikach sieciowych.
+            IEEE 802.s – standard opisujący mechanizm działania protokołu MSTP (ang. Multiple Spanning Tree
+            Protocol), stosowanego w wirtualnych sieciach lokalnych (VLAN).
+            IEEE 802.1w – standard opisujący pracę rozszerzonego protokołu drzewa rozpinającego RSTP (ang. Rapid
+            Spanning Tree Protocol).
+            IEEE 802.1Q – standard opisujący działanie wirtualnych sieci LAN (VLAN).
+            IEEE 802.2 – standard opisujący działanie podwarstwy LLC w warstwie łącza danych (2 warstwa modelu
+            ISO/OSI).
+            IEEE 802.3 – 10BASE5 – ETHERNET – standard lokalnych sieci komputerowych.
+            Poszczególne wersje standardu ETHERNET:
+            
+            o IEEE 802.3a – 10BASE2 – standard wykorzystujący cienki kabel koncentryczny jako nośnik danych;
+            o IEEE 802.3d – Fiber Optic – standard wykorzystujący światłowód jako nośnik danych;
+            o IEEE 802.3i – 10BASE-T – standard Ethernet wykorzystujący skrętkę jako nośnik danych;
+            o IEEE 802.3j – 10BASE-F – standard Ethernet wykorzystujący światłowód jako nośnik danych;
+            o IEEE 802.3u – 100BASE-TX, 100BASE-FX – standard Fast Ethernet oparty na skrętce (Tx), oraz na
+            światłowodzie (FX);
+            o IEEE 802.3z – 1000BASE-X – standard Gigabit Ethernet oparty na światłowodzie;
+            o IEEE 802.3ab – 1000BASE-T – standard Gigabit Ethernet oparty na skrętce;
+            o IEEE 802.3ac – standard zwiększający maksymalną wielkość ramki Ethernetowej do 1522 B,
+            pozwalający obsługiwać „tagowane” ramki z sieci VLAN;
+            o IEEE 802.3ad – Link Aggregation – standard umożliwiający agregację portów przełącznika;
+            o IEEE 802.3ae – 10 Gigabit Ethernet – Standard oparty na kablu światłowodowym;
+            o IEEE 802.3af – Power over Ethernet (PoE) – Standard umożliwiający korzystanie z urządzeń
+            sieciowych takich jak Access Point’y bez konieczności podłączenia go do zewnętrznego zasilania.
+            Urządzenie zasilane jest poprzez port przełącznika. Maksymalnie do 15,4W;
+            o IEEE 802.3an – 10 Gigabit Ethernet – standard oparty na skrętce;
+            o IEEE 802.3aq – 10 Gigabit Ethernet – standard oparty na kablu światłowodowym wielomodowym;
+            o IEEE 802.3at – Power over Ethernet (PoE) – Standard umożliwiający korzystanie z urządzeń
+            sieciowych takich jak Access Point’y bez konieczności podłączenia go do zewnętrznego zasilania.
+            Urządzenie zasilane jest poprzez port przełącznika. Zapewnia moc powyżej 25,5W, dla skrętki cat. 5.
+            IEEE 802.5 – Token Ring – standard sieci LAN, alternatywny dla standardu Ethernet.
+            IEEE 802.11 – WiFi – standard sieci bezprzewodowych.
+TEAM DEV OPS 
+ 1. Project Manager
+ 2. Operation Head
+ 
+
+    Software Devolopment Procces
+        -Product features
+        -Users
+        -Usage
+        -User requirment
+        -Market State
+        
+        
+           ! Software Development LifeCycle - SDLC !
+                0.Requirment Gathering 
+                -In first step client discribe to us all what he want in his product, also we are 
+                able to give to client easiers methods to do work and simplify way to finall product
+                1.Planing
+                -Team are planing to lead project to the end, creating step by step product
+                2.Design Architectures
+                -Design is a proccess where Designers will create a style and look for product
+                3.Development Developers
+                -Development is one of most important procces while working on project, its a 
+                structure that can hold all the things that client order together
+                4.Testing Quality Assurance
+                -Testing product before giving to client finall product
+                -Testing is a part job of team leaded to test apps like testers 
+                5.Deployment System Admins
+                -Operations works in deployinh the product
+                6.Maintenance 
+                -Its last part of working with project where we kipping alive all the 
+                system that we include to our product, giving new uptades, checking software 
+                or fixing issues
+
+            ! Models in SDLC !
+                -Waterfall is a type of model where you must end first step to begging second step and etc.
+                -Agile can allow to reduce time by spliting steps for list of 3 steps to finall product which look like this below
+                            A (2 to 4 week) B (2 to 4 week) C (2 to 4 week)
+                            -xxxxx             -||-         -||-
+                            -xxxxx             -||-         -||-
+                            -xxxxx             -||-         -||-
+
+                            MOST IMPORTANT THING TO REMEMBER IS 
+                                    ! ! ! ! ! ! ! ! ! ! ! ! !  
+                                  !                           !
+                                 !        COMMUNICATION        !
+                                !  COLLOBAROTAION INTEGRATION   !
+                                 !                             !
+                                   !                         !
+                                    ! ! ! ! ! ! ! ! ! ! ! ! !   
+
+            YOU MUST REMEMBER IF YOU ARE IN DEV TEAM    YOU MUST REMEMBER IF YOU ARE IN OPS TEAm
+            -Understand ops stability                   -Understand dev agility  
+
+                                    AND FOR ALL OF TEAMS 
+                            -Automation the proccess while working :
+                                        A) CODE BUILD
+                                        B) CODE TESTING
+                                        C) SOFTWARE TESTING
+                                        D) INFRA CHANGES
+                                        E) DEPLOYMENTS
+                                        F) EVERYTHING
+                            IT HELPS TO BRAKE THE WALL OF CONFIUSONS 
+                                        AND PROBLEMS :)
+                                  AUTOMIATION AND INTEGRATION
+                -Spiral
+                    Spiral is a flexible methodology for software development. It combines elements of iterative development with the structured aspects of the waterfall model. 
+                                    In simplest terms, it's a way of developing software that involves cycles of planning, risk analysis, development, 
+                                      and testing in a continuous loop, allowing for incremental improvements and adjustments throughout the process
+                -Big bang
+
+                            SLDC Big Bang is a term used in software deployment, which describes the strategy of implementing a new version of a system or
+                                application by instantly and comprehensively transitioning all users to the new platform at a specific point in time.
+                -ETC ETC
+                            ETC its just way where you must end project till dead line. No specific steps just working all together on project.
+                
+                
+            ! Q AND A PROCCESS WHILE GOING THROUGH COURSE!
+                                    IF YOU ARE STUCK 
+            TAKE A SCREEN SHOT ->  SHARE STEPS/CODE -> DESCIRBE -> POST IN THE Q & A
+  
+            ! CI - CONTINOUS INTERGRATION PROCCESS !
+                    
+                                                                    [CODE]->[FETCH]->[BUILD]->[TEST]->[NOTIFY]->[FEEDBACK]
+                                    
+           CREATING CODE -> POSTING TO GITHHUB FOR EXAMPLE -> IMPLEMENT TO BUILD SERVER WHERE IT BE BUILDED, TESTED AND EVALUATED - > ARTIFACT A REPO TO EXMAPLE WAR/JAR/DLL/ZIP 
+                                                                        ->SHIPINH TO SERVERS WHERE SOFTWARES WILL BE TESTED
+                                                                        
+                                                                                    CI TOOLS:
+                                                                                    -JENKINS
+                                                                                    -CIRCLECI
+                                                                                    -TEAMCITY
+                                                                                    -BAMBOO CI
+                                                                                  -CRUISE CONTROL
+            ! CD - CONTINOUS DELIVERY! 
+                                                                    CONTINOUS DELIVERY TO SERVER
+                                                        CD PROCCESS IS A WAY TO FIND BUGS AND FIX ISSUES OF SOFTWARE
