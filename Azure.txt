@@ -112,10 +112,27 @@
                                 [TOPOLOGY OF COMPUTER NETWORK]
                                         
     Topology define relation beetween devices in net, connection beetween and way flow data. Topology can be
-                                            physical or logic. 
-             
+                                     physical or logic. 
+        Physical topology is a map of physical places where devices are and how net looks like.
             
-            
+                                        BUS NETWORK
+
+                          DEVICE        DEVICE      DEVICE
+                            |              |         |
+            -----------------------------------------------
+            |            |           |           |       |
+            |        DEVICE        DEVICE      DEVICE   DEVICE
+            |
+        ---------
+          -----
+            --
+
+         In this topology, all devices are connected to a common transmission medium.
+        Commonly the medium used in this topology was coaxial cable, both thin and thick.
+                        This topology was used to build local networks
+        computers, "was" is the appropriate word here because it is no longer widely used
+
+
                                         !KURS DEV-OPS!
 
 TEAM DEV OPS 
