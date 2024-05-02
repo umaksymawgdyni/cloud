@@ -291,6 +291,53 @@
                                             
                                             
                                             
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                        !DOCKER! 
+                                            
+                            It's open software used for containerization working as platform for devs and admins to create, implement and running distributed applications
+                              
+                              
+                            Docker are called as utillity which give us a way to implement program and extensions like configs, local data-base in light, pocket, virtual contener, which 
+                            you can run on every server working on Linux. Conteners with contents are working with out integrations beeetwen and they didn't know about their existence.
+                            They can communicate with eatchother with special definied data reciving chanelles. Through running on one OS, containerization sofwater is simple way running aplications 
+                            and virtualization or para-virtualization with help virtual OS.
+
+ 
+                                            
+                                            
+                                            
+                                            
+                                            DOKONCZYC JUTRO! DOCKER             
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
                                             !KURS DEV-OPS!
 
 TEAM DEV OPS 
