@@ -67,44 +67,57 @@
             
                                         [STANDARTS OF COMPUTER NETWORK]
             IEEE 802 it is a group of standards used in computer networks. The most popular standards is :
+             
+             IEEE 802.1D - a standard describing the operation of the Spanning Tree Protocol (STP).
+             Protocol), which is implemented in network switches. Its basic function
+             is to prevent loops from occurring in local computer networks.
+             IEEE 802.p – a standard describing the operation of the QoS service on network switches.
+             IEEE 802.s – a standard describing the mechanism of operation of the Multiple Spanning Tree (MSTP) protocol
+             Protocol) used in virtual local area networks (VLANs).
+             IEEE 802.1w - a standard describing the operation of the extended spanning tree protocol RSTP (Rapid
+             Spanning Tree Protocol).
+             IEEE 802.1Q – a standard describing the operation of virtual LANs (VLANs).
+             IEEE 802.2 – a standard describing the operation of the LLC sublayer in the data link layer (model layer 2
+             ISO/OSI).
+             IEEE 802.3 – 10BASE5 – ETHERNET – standard for local computer networks.
+             Individual versions of the ETHERNET standard:
+             
+             o IEEE 802.3a – 10BASE2 – a standard using a thin coaxial cable as a data carrier;
+             o IEEE 802.3d – Fiber Optic – a standard using optical fiber as a data carrier;
+             o IEEE 802.3i – 10BASE-T – Ethernet standard using twisted pair cable as a data carrier;
+             o IEEE 802.3j – 10BASE-F – Ethernet standard using optical fiber as a data carrier;
+             o IEEE 802.3u – 100BASE-TX, 100BASE-FX – Fast Ethernet standard based on twisted pair (Tx), and on
+             fiber optics (FX);
+             o IEEE 802.3z – 1000BASE-X – Gigabit Ethernet standard based on optical fiber;
+             o IEEE 802.3ab – 1000BASE-T – Gigabit Ethernet standard based on twisted pair;
+             o IEEE 802.3ac – a standard that increases the maximum size of an Ethernet frame to 1522 B,
+             allowing the handling of "tagged" frames from VLANs;
+             o IEEE 802.3ad – Link Aggregation – a standard enabling the aggregation of switch ports;
+             o IEEE 802.3ae – 10 Gigabit Ethernet – Standard based on fiber optic cable;
+             o IEEE 802.3af – Power over Ethernet (PoE) – Standard enabling the use of devices
+             network devices such as Access Points without the need to connect it to an external power supply.
+             The device is powered through the switch port. Up to 15.4W maximum;
+             o IEEE 802.3an – 10 Gigabit Ethernet – standard based on twisted pair;
+             o IEEE 802.3aq – 10 Gigabit Ethernet – standard based on multimode fiber optic cable;
+             o IEEE 802.3at – Power over Ethernet (PoE) – Standard enabling the use of devices
+             network devices such as Access Points without the need to connect it to an external power supply.
+             The device is powered through the switch port. Provides power above 25.5W, for twisted pair cat. 5.
+             IEEE 802.5 – Token Ring – LAN standard, alternative to the Ethernet standard.
+             IEEE 802.11 – WiFi – standard for wireless networks.
+             
+             
+             
+             
+             
+                                [TOPOLOGY OF COMPUTER NETWORK]
+                                        
+    Topology define relation beetween devices in net, connection beetween and way flow data. Topology can be
+                                            physical or logic. 
+             
             
             
-            IEEE 802.1D – standard opisujący pracę protokołu drzewa rozpinającego STP (ang. Spanning Tree
-            Protocol), który implementowany jest w przełącznikach sieciowych (ang. Switch). Jego podstawową funkcją
-            jest zapobieganie powstawaniu pętli w lokalnych sieciach komputerowych.
-            IEEE 802.p – standard opisujący działanie usługi QoS na przełącznikach sieciowych.
-            IEEE 802.s – standard opisujący mechanizm działania protokołu MSTP (ang. Multiple Spanning Tree
-            Protocol), stosowanego w wirtualnych sieciach lokalnych (VLAN).
-            IEEE 802.1w – standard opisujący pracę rozszerzonego protokołu drzewa rozpinającego RSTP (ang. Rapid
-            Spanning Tree Protocol).
-            IEEE 802.1Q – standard opisujący działanie wirtualnych sieci LAN (VLAN).
-            IEEE 802.2 – standard opisujący działanie podwarstwy LLC w warstwie łącza danych (2 warstwa modelu
-            ISO/OSI).
-            IEEE 802.3 – 10BASE5 – ETHERNET – standard lokalnych sieci komputerowych.
-            Poszczególne wersje standardu ETHERNET:
-            
-            o IEEE 802.3a – 10BASE2 – standard wykorzystujący cienki kabel koncentryczny jako nośnik danych;
-            o IEEE 802.3d – Fiber Optic – standard wykorzystujący światłowód jako nośnik danych;
-            o IEEE 802.3i – 10BASE-T – standard Ethernet wykorzystujący skrętkę jako nośnik danych;
-            o IEEE 802.3j – 10BASE-F – standard Ethernet wykorzystujący światłowód jako nośnik danych;
-            o IEEE 802.3u – 100BASE-TX, 100BASE-FX – standard Fast Ethernet oparty na skrętce (Tx), oraz na
-            światłowodzie (FX);
-            o IEEE 802.3z – 1000BASE-X – standard Gigabit Ethernet oparty na światłowodzie;
-            o IEEE 802.3ab – 1000BASE-T – standard Gigabit Ethernet oparty na skrętce;
-            o IEEE 802.3ac – standard zwiększający maksymalną wielkość ramki Ethernetowej do 1522 B,
-            pozwalający obsługiwać „tagowane” ramki z sieci VLAN;
-            o IEEE 802.3ad – Link Aggregation – standard umożliwiający agregację portów przełącznika;
-            o IEEE 802.3ae – 10 Gigabit Ethernet – Standard oparty na kablu światłowodowym;
-            o IEEE 802.3af – Power over Ethernet (PoE) – Standard umożliwiający korzystanie z urządzeń
-            sieciowych takich jak Access Point’y bez konieczności podłączenia go do zewnętrznego zasilania.
-            Urządzenie zasilane jest poprzez port przełącznika. Maksymalnie do 15,4W;
-            o IEEE 802.3an – 10 Gigabit Ethernet – standard oparty na skrętce;
-            o IEEE 802.3aq – 10 Gigabit Ethernet – standard oparty na kablu światłowodowym wielomodowym;
-            o IEEE 802.3at – Power over Ethernet (PoE) – Standard umożliwiający korzystanie z urządzeń
-            sieciowych takich jak Access Point’y bez konieczności podłączenia go do zewnętrznego zasilania.
-            Urządzenie zasilane jest poprzez port przełącznika. Zapewnia moc powyżej 25,5W, dla skrętki cat. 5.
-            IEEE 802.5 – Token Ring – standard sieci LAN, alternatywny dla standardu Ethernet.
-            IEEE 802.11 – WiFi – standard sieci bezprzewodowych.
+                                        !KURS DEV-OPS!
+
 TEAM DEV OPS 
  1. Project Manager
  2. Operation Head
