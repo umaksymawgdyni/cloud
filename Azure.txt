@@ -219,6 +219,78 @@
                                  construction of large backbone networks.
                                             
                                             
+                                        [WEB TOPOLOGY]
+                                        
+                                              D  
+                                            /   \  
+                                     x     /     \     x
+                                          /       \
+                                 D- - - -           - - - -D
+                                 \       x          x      /          
+                                  \                       /
+                                   \                     /
+                                    \    x          x   /
+                                     \                 /
+                                      D---------------D
+
+                                D- Device
+                                x - places where are also a connection but i cannot draw it                           
+                                            
+                 Topology used in the construction of extensive networks, involving the use of redundant connections
+                 between devices to ensure the highest level of security and operational reliability networks.          
+---------------------------------------------------------------------------------------------------------------------------                                        
+                                        LOGIC TOPOLOGY
+                    Logic topology determine how data flows in the network :
+                    
+                                    [POINT-POINT TOPOLOGY]
+                                R- router      
+                                    R------> NET <-----R       
+                                    
+                In this topology, data transfer takes place only between two devices
+            in the network, which can be connected to each other directly, as well as using devices
+                                intermediaries (e.g. switches).
+                                
+                                
+                                    [MULTI-ACCESS TOPOLOGY]
+                                    
+                                    
+                                    
+                            PC             PC        PC
+                            |              |         |
+            ---------------------------------------------------------
+                       |           |           |       |
+                       PC         PC           PC      PC
+                                    
+                  In this topology, data transfer takes place via one transmission medium, which is shared by many devices.
+    The device transmitting the data sends it to everyone, but only the device to which the data was addressed reads it them, 
+                                            other devices ignore them.
+                                            
+                                        [RING TOPOLOGY]
+                                        
+                                        
+                           ITS CIRCLE DON'T LOOK AT THIS LIKE HEX!!!
+                                        
+                                         PC------PC-----PC
+                                        /                \
+                                       /                  \    
+                                      PC                  PC
+                                     /                      \  
+                                    /                        \ 
+                                   PC                         PC
+                                    \                        /
+                                     \                      /
+                                     PC                    PC
+                                       \                  /
+                                        \                /
+                                        PC-------PC-----PC
+                                            
+                        Similarly to the multi-access topology, data is also sent here
+                        all devices, and only the device to which they were addressed reads them. In the ring
+                        there is a "token" that "circulates" between devices. It's a device that wants
+                        transmit "captures" it and starts transmitting.                    
+                                            
+                                            
+                                            
                                             !KURS DEV-OPS!
 
 TEAM DEV OPS 
