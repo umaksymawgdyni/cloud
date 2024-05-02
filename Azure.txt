@@ -191,9 +191,32 @@
                                        \                /
                                         \              /
                                          D------D-----D
-                                            
-                                            
-                                            
+                                         
+                         In this pology all devices are in circle and got 2 neighborhood creating closed ring. Its like in 
+                         bus topology, we didn't use to much cables or we don't use also other devices like hubs.
+                           
+                                     [DOUBLE RING TOPOLOGY]
+                                        
+                            ITS CIRCLE DON'T LOOK AT THIS LIKE HEX!!!
+                                            ←      ←
+                                         D------D-----D
+                                        /              \
+                                     ↓ /                \ ↑   
+                                      D                  D
+                                     /                    \  
+                                   ↓/                      \ ↑
+                                    D                       D
+                                    \                      /
+                                    ↓\                    / ↑
+                                      D                  D
+                                       \                / 
+                                      ↓ \              / ↑
+                                         D------D-----D
+                                             →     → 
+                                         
+                  Twin to the ring topology, they differ from the original in the use of a double connection
+             devices to ensure proper operation of the network in the event of a failure of one link. Used in
+                                 construction of large backbone networks.
                                             
                                             
                                             !KURS DEV-OPS!
