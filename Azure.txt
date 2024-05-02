@@ -131,15 +131,72 @@
         Commonly the medium used in this topology was coaxial cable, both thin and thick.
                         This topology was used to build local networks
         computers, "was" is the appropriate word here because it is no longer widely used.
-        The advantages of this topology were the low cost and simplicity of its structure, but      unfortunately it was a very unreliable topology and therefore fell out of use.
+        The advantages of this topology were the low cost and simplicity of its structure, but
+        unfortunately it was a very unreliable topology and therefore fell out of use.
                                         
                                         [STAR TOPOLOGY]
-                
                                         
-                                        
-                                        
+                                                    
 
-                                        !KURS DEV-OPS!
+                                                 D  D  D  
+                                                  \ | /
+                                                   \|/
+                                                D---X---D
+                                                  / | \
+                                                 /  |  \
+                                                D   D   D
+                                                
+                                        D - Device
+                                        X - HUB
+
+                    In local networks, this is the most common topology because it is simple to use
+                design, construction and expansion, failure-resistant and easily manageable. It's a plus
+         the fact that it can be constructed using various transmission media, such as copper twisted pair or cable
+                        fiber optic or WLAN. The disadvantage of this topology is cost.
+                                            
+                                        [EXPANDED STAR TOPOLOGY]
+                                        
+                                        
+                                                 D  D  D  
+                                                  \ | /
+                                                   \|/
+                                                    |
+                                          D         X           D
+                                           \        |         /
+                                         D------X---X---X--------D
+                                           /        |         \  
+                                          D         X           D
+                                                    |
+                                                  / | \
+                                                 /  |  \
+                                                D   D   D
+                                                
+                                        
+                 An extension of the star topology used in large LANs and campus networks.
+                    
+                                        [RING TOPOLOGY]
+                                        
+                            ITS CIRCLE DON'T LOOK AT THIS LIKE HEX!!!
+                                        
+                                         D------D-----D
+                                        /              \
+                                       /                \    
+                                      D                  D
+                                     /                    \  
+                                    /                      \ 
+                                    D                       D
+                                    \                      /
+                                     \                    /
+                                      D                  D
+                                       \                /
+                                        \              /
+                                         D------D-----D
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            !KURS DEV-OPS!
 
 TEAM DEV OPS 
  1. Project Manager
