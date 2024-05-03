@@ -363,9 +363,30 @@
                      ▪️ in net layer created pack's by adding a header containing IP addresses sender and recipient,
                      ▪️ in data flow layer is created a frame by adding a header containing physical adress called MAC (sender and recipient)
                      ▪️ in the physical layer, the frame is encoded and sent to the recipient
-                   
-                   
-                                            
+                
+                
+                                    !Layers of app protocol!
+                
+                Aplication layer is highier layer used in models OSI and TCP/IP. We can say that 
+                layer is closer to user because it share communication interface. For more clearly explaining its this layer which allow user to use www websites, sending file's and e-mail.
+                
+                From many protocols below are more important :
+                
+                         ▪️DNS - Domain Name System with port 53 is protocol used to convert webstine url to ip adress
+                         ▪️ HTTP - Hypertext Transfer Protocol with port 80 are used for sending files which creates WWW websites
+                         ▪️HTTPS - Hypertext Transfer Protocol with port 443 are used for secure website via TLS
+                         ▪️SMTP - Simple Mail Transfer Protocol with port 25 protocol used to send mails 
+                         ▪️POP3 - Post Office Protocol with port 110 are used for reciving mail 
+                         ▪️IMAP - Internet Message Access Protocol with port 143 are used for reciving mails and also gives remote access to files located at server
+                         ▪️Telnet - Telecommunication Network with port 23 protocol used to emulation terminal to communicate with remote device 
+                         ▪️FTP - File Transfer Protocol with ports 20 and 21 - are used in interactive exchange files through systems
+                         ▪️DHCP - Dynamic Host Configuration Protocol with port 67 are mostly used for dynamic device foniguration, it allows to define IP, gate and DNS servers
+                         ▪️SSH - Secure Shell with port 22 used to emulate web terminal with encryption connection
+                         ▪️NFS - Network File system with port 2049 this protocol are used to share software files 
+                         ▪️SNMP - Simple Network Management Protocol with port 161 are used for management net and configuration web devices and collecting datas about them
+                         ▪️SMB - Server Message Block with port 137,138,139 are used for sharing files
+                
+                Ports are important things that must be rememebered because it allows to indetify type of protocol.
                                             
                                             
                                             
