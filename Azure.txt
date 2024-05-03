@@ -290,11 +290,39 @@
                         transmit "captures" it and starts transmitting.                    
                                             
                                             
+                     [LAYERS OF COMPUTER NETWORK - OSI AND TCP/IP MODELS]
+                
+                Comunnication beetewn device in computer network like in the other once had own rights and rules. This rules are communication protocols. They are different in the way of coummincation's. Like in exmaple in every day life specific rules of communication are different in phone call's and communication in popular messenger's like Messenger or Telegram. 
+
+
+                For right working communication in computer networks we have a lot of protocols which is called a protocol set. In this set's we had a software parts and also a net devices. The most effective visualization method
+                The key to interoperability between protocols is to view them as layered layers that constitute their own kind
+                stack.
+                
+                Using this method allows you to break down the complicated issue of network communication
+                into smaller elements in order to describe and understand them more easily. Moreover, the use of the model
+                layering brings a number of other benefits, such as easier protocol design or
+                Possibility of interoperability of network devices from different manufacturers.
+                
+                There are two basic models : OSI and TCP/IP
+                
+                                OSI                                 TCP/IP
+                    7.Layer of application                4.Layer of Aplication
+                    6.Layer of presentation               3.Layer of transpot
+                    5.Layer of session                    2.Intenret
+                    4.Layer of transport                  1.Layer with access net
+                    3.Layer of net
+                    2.Layer of data transfer
+                    1.Physcial Layer
                                             
-                                            
-                                            
-                                            
-                                            
+                Model TCP/IP was created in late 70's years in XX century and it is called web structer INTERNET. THis type of structure had own 4 layers :
+                    ▪️Layers of aplication working on prestation data's between user and their codding 
+                    ▪️Layers of transport are giving communication through devices in net
+                    ▪️Internet is a tool giving us best way to transfer data packet
+                    ▪️Layer of access to net are controling devices and media
+                    
+                Model OSI is model created for open system which won't be
+                belonged to no closed network. Due to fast growing structure of TCP/IP Model caused slower implementation OSI. Despite this we are successfully implemented a few primary protocols. Unlike TCP/IP, OSI has 7 layers, not 4. This layers is :
                                             
                                             
                                             
