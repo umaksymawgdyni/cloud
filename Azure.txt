@@ -354,8 +354,15 @@
                 LAYER OF DATA FLOW    |                      | ETHERNET/S,H,B*   
               ------------------------|  LAYER OF DATA FLOW  | ----------------  
                    PHYSICAL LAYER     |                      | MEDIA TRANSMITION  
+                   Layers of computer net - Models OSI and TCP/IP - encapsulation
                    
-                   
+                What is encapsulation? It isone of the assumptions of object-oriented programming. Encapsulation involves hiding certain component data or methods of objects of a given class so that they are available only to internal methods of a given class or                      to friendly functions.
+                
+                In layer model communication working on data sending and reciving data through layers. Proccess of walking through layers from upper to lowwer are called encapsulation. Additionally, in the process information necessary for proper transmission is added to the packets, as follows: 
+                     ▪️ in layer transort data are splited by segments and they are provided with a header containing the application port number
+                     ▪️ in net layer created pack's by adding a header containing IP addresses sender and recipient,
+                     ▪️ in data flow layer is created a frame by adding a header containing physical adress called MAC (sender and recipient)
+                     ▪️ in the physical layer, the frame is encoded and sent to the recipient
                    
                    
                                             
