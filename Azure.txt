@@ -313,7 +313,7 @@
                     4.Layer of transport                  1.Layer with access net
                     3.Layer of net
                     2.Layer of data transfer
-                    1.Physcial Layer
+                    1.Physical Layer
                                             
                 Model TCP/IP was created in late 70's years in XX century and it is called web structer INTERNET. THis type of structure had own 4 layers :
                     ▪️Layers of aplication working on prestation data's between user and their codding 
@@ -323,9 +323,41 @@
                     
                 Model OSI is model created for open system which won't be
                 belonged to no closed network. Due to fast growing structure of TCP/IP Model caused slower implementation OSI. Despite this we are successfully implemented a few primary protocols. Unlike TCP/IP, OSI has 7 layers, not 4. This layers is :
-                                            
-                                            
-                                            
+                     ▪️Layers of aplication which allows communication between user and for example WWW
+                     ▪️Layers of presentation working with data flow and definition formats
+                     ▪️Layers of session are manegment way of communication
+                     ▪️Layers of transport are responsible for the integrity (i.e. consistency) of data transmission,
+                     ▪️Layers of net work on choosing data flow path
+                     ▪️Layers of data transfer describe methods of exchange frames beeetwen devices connected to the same hub
+                     ▪️Psycical Layer are control bit flow's through web hub's
+                     
+                     
+                     
+                     
+                Even if this two models are different in layers there are same protocols and web devices what we can see below
+                
+                -------------------------------------------------------------
+                    MODEL OSI           MODEL TCP/IP        PROTOCOLS/DEVICES
+                -------------------------------------------------------------    
+                  LAYER OF APK        |                      |    HTTP,TELENT   
+              ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ |                      |                  
+             LAYER OF PRESENTATION    |  LAYER OF APK        | SSH,FTP,POP3,SMTP
+              ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ |                      |                  
+                LAYER OF SESSION      |                      |     IMAP,DNS     
+              ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️
+              LAYER OF TRANSPORT      |  LAYERS OF TRANSPORT |     TCP,UDP
+              ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️
+                                      |                      |      IP,RIP
+                LAYER OF NET          |  INTERNET            |    OSPF,ERGRP
+                                      |                      |    ROUTER/SWITCH
+              ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️ ▪️
+                LAYER OF DATA FLOW    |                      | ETHERNET/S,H,B*   
+              ------------------------|  LAYER OF DATA FLOW  | ----------------  
+                   PHYSICAL LAYER     |                      | MEDIA TRANSMITION  
+                   
+                   
+                   
+                   
                                             
                                             
                                             
