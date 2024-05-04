@@ -405,7 +405,22 @@
                                 ▪️ voice transmission via IP network (VoIP).
                             The figure below shows what a typical UDP datagram looks like.
                                             
-                                            
+                            
+                            TCP protocol
+                            
+                            TCP is a connection protocol that creates the so-called segments that introduces an additional
+                            overhead, due to the greater number of functions performed, such as delivering them in the right way
+                            sequencing or reliable delivery and flow control. Each TCP segment adds as many as 20 additional ones
+                            bytes in the header, where the UDP datagram only adds 8 extra bytes. The main advantage of this protocol
+                            is reliability, which is guaranteed by the need for the host receiving the data to send an acknowledgment
+                            before it gets the next segment uploaded.
+                            Applications that use TCP include:
+                                ▪️  website browsers,
+                                ▪️  e-mail,
+                                ▪️  File transfer programs.
+                            The figure below shows what a typical TCP segment looks like.
+                            
+                            
                                         !DOCKER! 
                                             
                             It's open software used for containerization working as platform for devs and admins to create, implement and running distributed applications
