@@ -387,8 +387,23 @@
                          ▪️SMB - Server Message Block with port 137,138,139 are used for sharing files
                 
                 Ports are important things that must be rememebered because it allows to indetify type of protocol.
-                                            
-                                            
+                
+                                    [PROTOCOLS OF TRANSPORT LAYER]
+                                    
+                                    
+                            Transport layer is important part of sending data. First of all it is responsibile for right communication and work with no issues. It also specifies
+                            how data are segmented and they late merge. Also it define from which aplication data comes (it doing it by port number). Two most popular protocols is TCP (Transmission Control Protocol ) and UDP ( User Datagram Protocol). This two protocols can manage two transmistion at the same time but it different in function which they can do for aplication
+                            
+                            Protocol UDP 
+                            
+                            UDP is simple a connectionless protocol. Most important advantages of this protocol are there is a slight overhead added to the data provided. Portions of UDP data are called datagrams. However, it does not provide any assurances
+                            protection mechanisms such as confirmation of datagram delivery or retransmission.
+                            
+                            Applications that use UDP include:
+                                ▪️ DNS (Domain Name System),
+                                ▪️ applications sending video streams,
+                                ▪️ voice transmission via IP network (VoIP).
+                            The figure below shows what a typical UDP datagram looks like.
                                             
                                             
                                         !DOCKER! 
@@ -400,7 +415,8 @@
                             you can run on every server working on Linux. Conteners with contents are working with out integrations beeetwen and they didn't know about their existence.
                             They can communicate with eatchother with special definied data reciving chanelles. Through running on one OS, containerization sofwater is simple way running aplications 
                             and virtualization or para-virtualization with help virtual OS.
-
+                            
+                            
  
                                             
                                             
